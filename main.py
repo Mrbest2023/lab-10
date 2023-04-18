@@ -12,7 +12,8 @@ def generate_data() -> List[int]:
     return np.random.randint(100, 10000, 1000).tolist()
 
 def process1(data: List[int]) -> List[int]:
-    """TODO: Document this function. What does it do? What are the inputs and outputs?"""
+    """TODO: Document this function. What does it do? What are the inputs and outputs?
+    this function finds the next largest prime number and then    The input is data in the form of a list and the output is a function"""
     def foo(x):
         """Find the next largest prime number."""
         while True:
@@ -22,7 +23,8 @@ def process1(data: List[int]) -> List[int]:
     return [foo(x) for x in data]
 
 def process2(data: List[int]) -> List[int]:
-    """TODO: Document this function. What does it do? What are the inputs and outputs?"""
+    """TODO: Document this function. What does it do? What are the inputs and outputs?
+    the input is data in the form of a list and the output is a funciton."""
     def foo(x):
         """Find the next largest prime number."""
         while True:
@@ -32,7 +34,8 @@ def process2(data: List[int]) -> List[int]:
     return [foo(x) for x in data]
 
 def final_process(data1: List[int], data2: List[int]) -> List[int]:
-    """TODO: Document this function. What does it do? What are the inputs and outputs?"""
+    """TODO: Document this function. What does it do? What are the inputs and outputs?
+    """
     return np.mean([x - y for x, y in zip(data1, data2)])
 
 offload_url = 'http://127.0.0.1:5000' # TODO: Change this to the IP address of your server
