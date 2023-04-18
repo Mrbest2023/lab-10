@@ -3,7 +3,7 @@
 
 ## Team Members
 - team member 1 Brendan Best
-- team member 2
+- team member 2 Marina
 
 ## Lab Question Answers
 
@@ -12,3 +12,5 @@ Question 1: ...
 Answer: ...
 
 Question 2: ...
+
+answer: 
